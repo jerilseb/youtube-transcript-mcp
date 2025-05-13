@@ -4,7 +4,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import NoTranscriptFound
 from youtube_transcript_api._transcripts import Transcript
 
-server = FastMCP("youtube-transcript-api")
+server = FastMCP("youtube-transcript-mcp")
 
 
 def _format_timestamp(seconds: float) -> str:
