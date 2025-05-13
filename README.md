@@ -20,19 +20,7 @@ Install [uv](https://github.com/astral-sh/uv) is a fast Python package installer
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-### Option 2: Using pip
-
-If you prefer not to use uv, you can install using standard pip:
-
-```bash
-pip install youtube-transcript-mcp
-```
-
-## Usage
-
-### In your MCP client configuration:
-
-#### If using uv:
+#### In your MCP client configuration:
 
 The `uvx` command is provided by uv and allows you to run Python packages directly:
 
@@ -45,7 +33,15 @@ The `uvx` command is provided by uv and allows you to run Python packages direct
 }
 ```
 
-#### If using standard Python:
+### Option 2: Using pip
+
+If you prefer not to use uv, you can install using standard pip:
+
+```bash
+pip install youtube-transcript-mcp
+```
+
+#### In your MCP client configuration:
 
 ```json
 "mcpServers": {
